@@ -1,0 +1,27 @@
+h1, h2, h3 {
+
+    font-family: Montserrat;
+    padding-top: 8%;
+
+}
+
+h3 {
+
+    padding-left: 10%;
+
+}
+
+img {
+
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+}
+
+p.description {
+
+    font-family: Montserrat;
+    font-size: 25px;
+    text-align: center;
+
+}
