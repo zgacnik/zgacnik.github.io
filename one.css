@@ -3,9 +3,26 @@ h1 {
 }
 
 body {
-    background-color: yellow;
+    background-color: white;
 }
 
 a {
     color: crimson
+}
+
+div.box {
+
+    width: 300px;
+    height: 100px;
+    background-color: firebrick;
+    border: 10px solid navy;
+    padding: 30px 20px 40px;
+    margin: 10px 20px 30px 40px;
+
+}
+
+p.box span {
+
+    background-color: yellow;
+
 }
