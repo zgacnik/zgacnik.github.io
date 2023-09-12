@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #abc;
+}
+
+#wrap {
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+nav {
+
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+
+nav li {
+
+    display: inline;
+    padding: 10px;
+
+}
+
+.one {
+
+    width: 470px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    padding: 10px;
+
+}
+
+.two {
+
+    width: 466px;
+    height: 200px;
+    background-color: red;
+    float: right;
+    padding: 10px;
+    border: 2px solid maroon;
+
+}
+
+section {
+
+    padding: 10px;
+    overflow: auto;
+
+}

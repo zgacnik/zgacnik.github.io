@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+#wrap {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+img {
+
+    width: 50%;
+
+}
+
+header {
+
+    padding: 2%;
+    text-align: center;
+    background-color: aliceblue;
+
+}
