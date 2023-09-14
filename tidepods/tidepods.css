@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ccc;
+    font-family: Verdana, sans-serif;
 }
 
 #wrap {
@@ -20,6 +21,84 @@ header {
 
     padding: 2%;
     text-align: center;
-    background-color: aliceblue;
+    background-color: lightblue;
+
+}
+
+nav {
+
+    background-color: #0b3d91;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+nav li {
+
+    display: inline;
+
+}
+
+nav a {
+
+    color: white;
+    font-size: 170%;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    color: yellow;
+    background-color: navy;
+
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+section {
+
+    padding: 40px;
+
+}
+
+footer {
+
+    background-color: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.pod {
+
+    width: 30%;
+    float: right;
+    margin-top: -15px;
+
+}
+
+.button {
+
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+a.button:hover {
+
+    background-color: #0b3d91;
 
 }

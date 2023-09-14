@@ -31,6 +31,7 @@ nav li {
     background-color: green;
     float: left;
     padding: 10px;
+    /* visibility: hidden; */
 
 }
 
@@ -49,5 +50,12 @@ section {
 
     padding: 10px;
     overflow: auto;
+
+}
+
+.hide {
+
+    /* visibility: hidden; */
+    display: none;
 
 }
