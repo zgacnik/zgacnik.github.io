@@ -1,14 +1,26 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
-    font-family: Verdana, sans-serif;
+    background-color: white;
+    font-family: Montserrat;
 }
 
-#wrap {
-    width: 70%;
+/* #wrap {
+    width: 100%;
     background-color: white;
     margin: 0 auto;
+} */
+
+.topstrip {
+
+    width: 7%;
+
+}
+
+#homephoto {
+
+    width: 100%;
+
 }
 
 img {
@@ -19,17 +31,18 @@ img {
 
 header {
 
-    padding: 2%;
+    padding: 0%;
     text-align: center;
-    background-color: lightblue;
+    background-color: white;
 
 }
 
 nav {
 
-    background-color: #0b3d91;
-    text-align: center;
-    padding: 20px;
+    background-color: rgb(231, 222, 210);
+    text-align: left;
+    padding: 30px;
+    margin-top: -4px;
     
 }
 
@@ -41,17 +54,16 @@ nav li {
 
 nav a {
 
-    color: white;
+    color: black;
     font-size: 170%;
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
 
 }
 
 nav a:hover {
 
-    color: yellow;
-    background-color: navy;
+    background-color: rgb(237, 250, 254);
 
 }
 
@@ -59,6 +71,7 @@ nav ul {
 
     margin: 0;
     padding: 0;
+    font-weight: bold;
 
 }
 
@@ -70,24 +83,16 @@ section {
 
 footer {
 
-    background-color: #0b3d91;
-    color: white;
+    background-color: rgb(237, 250, 254);
+    color: black;
     text-align: center;
     padding: 10px;
 
 }
 
-.pod {
-
-    width: 30%;
-    float: right;
-    margin-top: -15px;
-
-}
-
 .button {
 
-    background-color: orangered;
+    background-color: rgb(67, 142, 67);
     color: white;
     text-decoration: none;
     font-size: 130%;
@@ -99,6 +104,6 @@ footer {
 
 a.button:hover {
 
-    background-color: #0b3d91;
+    background-color: lightskyblue;
 
 }
