@@ -1,13 +1,18 @@
 body {
+
     margin: 0;
     padding: 0;
     background-color: #abc;
+    background: url(mountains.jpeg) no-repeat fixed center;
+
 }
 
 #wrap {
+
     width: 1000px;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.3);
     margin: 0 auto;
+
 }
 
 nav {
@@ -27,22 +32,25 @@ nav li {
 .one {
 
     width: 470px;
-    height: 200px;
+    height: 400px;
     background-color: green;
-    float: left;
+    /* float: left; */
     padding: 10px;
-    /* visibility: hidden; */
+    position: relative;
 
 }
 
 .two {
 
-    width: 466px;
+    width: 200px;
     height: 200px;
     background-color: red;
-    float: right;
+    /* float: right; */
     padding: 10px;
     border: 2px solid maroon;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 
 }
 
