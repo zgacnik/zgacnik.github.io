@@ -78,3 +78,29 @@ h2 {
 	font-family: Georgia, serif;
 
 }
+
+figure {
+
+	float: left;
+	text-align: center;
+	color: white;
+	border: white solid 1px;
+	padding: 10px;
+	width: 22%;
+
+}
+
+figcaption {
+
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+}
+
+img {
+
+	width: 100%;
+
+}
