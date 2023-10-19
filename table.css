@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: Tahoma, sans-serif
+}
+
+#wrap {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+table {
+
+    border-spacing: 0px;
+
+}
+
+td, th {
+
+    border: 1px solid #999;
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+thead {
+
+    background-color: #401269;
+    color: white;
+
+}
+
+.firstrow {
+
+    background-color: #999;
+    color: white;
+
+}
+
+tr.firstrow td {
+
+    border: 1px solid black;
+
+}
+
+tbody tr:nth-of-type(even) {
+
+    background-color: #ccc;
+
+}
