@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+#wrap {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header, nav, footer {
+
+    padding: 15px;
+
+}
+
+header, footer {
+
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-family: Georgia;
+
+}
+
+nav {
+
+    background-color: red;
+    text-align: center;
+
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+
+    display: inline;
+
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+nav a:hover {
+
+    background-color: #900;
+
+}
