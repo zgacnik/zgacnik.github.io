@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
+    background-color: #e5e3ff;
 }
 
 h1, h2 {
@@ -9,5 +9,14 @@ h1, h2 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 7%;
+    margin-bottom: 3%;
+
+}
+
+p {
+
+    font-family: Georgia;
+    text-align: center;
+    line-height: 250%;
 
 }
