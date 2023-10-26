@@ -29,6 +29,7 @@ nav {
 
     background-color: red;
     text-align: center;
+    font-size: x-large;
 
 }
 
@@ -49,12 +50,134 @@ nav a {
 
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 15px 25px;
 
 }
 
 nav a:hover {
 
     background-color: #900;
+
+}
+
+aside {
+
+    width: 25%;
+    background-color: aqua;
+    float: left;
+
+}
+
+article {
+
+    width: 69%;
+    background-color: orchid;
+    float: right;
+    padding: 3%;
+
+}
+
+section {
+
+    overflow: auto;
+    background-color: aqua;
+
+}
+
+.bird {
+
+    width: 35%;
+    float: right;
+    margin: 0 20px 20px 30px;
+
+}
+
+aside a {
+
+    font-size: x-large;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #wrap {
+
+        width: 100%;
+
+    }
+
+    aside, article {
+
+        float: none;
+        width: 94%;
+
+    }
+
+    article {
+
+        background-color: beige;
+
+    }
+
+    nav a, aside a {
+
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+
+    }
+
+    nav li, nav ul, aside li, aside ul {
+
+        margin: 0;
+        padding: 0;
+
+    }
+
+    nav {
+
+        padding: 0;
+
+    }
+
+    aside li {
+
+        list-style-type: none;
+        
+    }
+
+    aside a:hover {
+
+        color: white;
+        background-color: cornflowerblue;
+
+    }
+
+    aside {
+
+        padding: 0;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .bird {
+
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 905px) {
+
+    nav {
+
+        font-size: large;
+
+    }
 
 }
