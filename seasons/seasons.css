@@ -1,11 +1,169 @@
-body {
+#homebody {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
+    background-color: #ffcd94;
 }
 
-#wrap {
-    width: 70%;
-    background-color: white;
-    margin: 0 auto;
+#springbody {
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(120, 237, 120);
+
+}
+
+#springnav {
+
+    background-color: rgb(26, 212, 26);
+
+}
+
+#springfooter {
+
+    background-color: rgb(26, 212, 26);
+    margin: 5% 0 0 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: normal;
+
+}
+
+#summerbody {
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 70);
+
+}
+
+#summernav {
+
+    background-color: rgb(220, 220, 63);
+    
+}
+
+#summerfooter {
+
+    background-color: rgb(220, 220, 63);
+    margin: 5% 0 0 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: normal; 
+
+}
+
+#autumnbody {
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 188, 62);
+
+}
+
+#autumnnav {
+
+    background-color: orange;
+
+}
+
+#autumnfooter {
+
+    background-color: orange;
+    margin: 5% 0 0 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: normal;
+
+}
+
+#winterbody {
+
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+
+}
+
+#winternav {
+
+    background-color: rgb(147, 147, 255);
+
+}
+
+#winterfooter {
+
+    background-color: rgb(147, 147, 255);
+    margin: 5% 0 0 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: normal;
+
+}
+
+h1 {
+
+    font-family: Georgia;
+    color: #611881;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+p {
+
+    font-family: Georgia;
+    text-align: center;
+    color: #611881;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 300%;
+
+}
+
+.footer {
+
+    background-color: #ffc37e;
+    margin: 5% 0 0 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: normal;
+
+}
+
+nav {
+
+    background-color: #ffc37e;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 10px;
+
+}
+
+nav li {
+
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+nav a {
+
+    font-family: Georgia;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+nav a:hover {
+
+    color: white;
+
 }
