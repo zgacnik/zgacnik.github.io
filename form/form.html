@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>Template</title>
-    <link href="template.css" rel="stylesheet" type="text/css">
+    <title>Form</title>
+    <link href="form.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -14,7 +14,52 @@
 
         <nav>Navigation</nav>
 
-        <section>Section</section>
+        <section>
+            <form method="post" action="">
+                <fieldset>
+                    <legend>Fill out this form.</legend>
+                    <p><label for="firstname">First Name</label><br>
+                        <input type="text" id="firstname" name="firstname">
+                    </p>
+                    <p><label for="lastname">Last Name</label><br>
+                        <input type="text" id="lastname" name="lastname">
+                    </p>
+                    <p><label for="email">Email</label><br>
+                        <input type="email" id="email" name="email">
+                    </p>
+                    <p><label for="phone">Phone</label><br>
+                        <input type="tel" id="phone" name="phone">
+                    </p>
+                    <p>How did you hear about this website?</p>
+                    <input type="checkbox" id="friend" name="howhear"><label for="friend"> Friend</label><br>
+                    <input type="checkbox" id="ad" name="howhear"><label for="ad"> Advertisement</label><br>
+                    <input type="checkbox" id="search" name="howhear"><label for="search"> Search Engine</label><br>
+                    <input type="checkbox" id="news" name="howhear"><label for="news"> Magazine or Newspaper</label><br>
+                    <input type="checkbox" id="other" name="howhear"><label for="other"> Other</label>
+                    <input type="text" id="otherinput" name="otherinput">
+
+                    <p>Have you been to this website before?</p>
+                    <input type="radio" id="yes" name="before"><label for="yes"> Yes</label><br>
+                    <input type="radio" id="no" name="before"><label for="no"> No</label><br>
+                    <input type="radio" id="maybe" name="before"><label for="maybe"> Maybe</label><br>
+
+                    <p>What is your favorite day of the week?</p>
+                    <select id="day">
+                        <option value="None">Select a day...</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                    </select>
+
+                    <p>Please leave a comment.</p>
+                    <textarea id="comment" name="comment" rows="10" cols="50"
+                        placeholder="Leave comment here."></textarea><br><br>
+
+                    <input type="submit" value="Submit!" name="submit">
+                </fieldset>
+            </form>
+        </section>
 
         <footer>Footer</footer>
 
