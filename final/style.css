@@ -31,12 +31,25 @@ footer p {
 
 .text-block {
     position: absolute;
-    bottom: -20%;
+    bottom: -17.5%;
     right: 10%;
     left: 10%;
     background-color: rgba(255, 255, 255, 0.868);
     color: black;
     padding: 1.5%;
+}
+
+.text-block2 {
+
+    position: absolute;
+    width: 50%;
+    bottom: -58%;
+    right: 20%;
+    left: 25%;
+    background-color: rgba(255, 255, 255, 0.868);
+    color: black;
+    padding: 1%;
+
 }
 
 .main {
