@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+#wrap {
+    width: 70%;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+#headerimg {
+
+    width: 100%;
+
+}
+
+header, nav, footer {
+
+    padding: 15px;
+
+}
+
+header, footer {
+
+    background-color: rgb(255, 145, 165);
+    color: white;
+    text-align: center;
+    font-family: Georgia;
+
+}
+
+nav {
+
+    background-color: rgb(254, 105, 130);
+    text-align: center;
+    font-size: x-large;
+
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+
+    display: inline;
+
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+
+}
+
+nav a:hover {
+
+    background-color: #900;
+
+}
+
+aside {
+
+    width: 25%;
+    background-color: aqua;
+    float: left;
+
+}
+
+article {
+
+    width: 69%;
+    background-color: rgb(216, 68, 216);
+    float: right;
+    padding: 3%;
+
+}
+
+section {
+
+    overflow: auto;
+    background-color: aqua;
+
+}
+
+.bird {
+
+    width: 35%;
+    float: right;
+    margin: 0 20px 20px 30px;
+
+}
+
+aside a {
+
+    font-size: x-large;
+    text-decoration: none;
+
+}
+
+footer {
+
+    overflow: auto;
+    
+}
+
+footer a {
+
+    padding: 15px;
+
+}
+
+.buy {
+
+    width: 35%;
+    float: right;
+    margin: 0 20px 20px 30px;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #wrap {
+
+        width: 100%;
+
+    }
+
+    aside, article {
+
+        float: none;
+        width: 94%;
+
+    }
+
+    article {
+
+        background-color: beige;
+
+    }
+
+    nav a, aside a, footer a {
+
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+
+    }
+
+    nav li, nav ul, aside li, aside ul {
+
+        margin: 0;
+        padding: 0;
+
+    }
+
+    nav {
+
+        padding: 0;
+
+    }
+
+    aside li {
+
+        list-style-type: none;
+        
+    }
+
+    aside a:hover {
+
+        color: white;
+        background-color: cornflowerblue;
+
+    }
+
+    aside {
+
+        padding: 0;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .bird {
+
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 905px) {
+
+    nav {
+
+        font-size: large;
+
+    }
+
+}
