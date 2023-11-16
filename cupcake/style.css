@@ -46,13 +46,13 @@ nav ul {
 
 }
 
-nav li {
+nav li, section li {
 
     display: inline;
 
 }
 
-nav a {
+nav a, footer a, section a {
 
     color: white;
     text-decoration: none;
