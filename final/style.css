@@ -12,7 +12,23 @@
 
 .btn-group {
 
-    margin-left: 30%;
+    margin-left: 28%;
+    margin-bottom: 5%;
+
+}
+
+.indeximg {
+
+    width: 40%;
+    margin-left: 3.5%;
+    float: left;
+
+}
+
+.indexcontent {
+
+    font-family: Montserrat;
+    line-height: 250%;
 
 }
 
@@ -29,33 +45,8 @@ footer p {
 
 }
 
-.text-block {
-    position: absolute;
-    bottom: -17.5%;
-    right: 10%;
-    left: 10%;
-    background-color: rgba(255, 255, 255, 0.868);
-    color: black;
-    padding: 1.5%;
-}
+.carousel-item {
 
-.text-block2 {
-
-    position: absolute;
-    width: 50%;
-    bottom: -58%;
-    right: 20%;
-    left: 25%;
-    background-color: rgba(255, 255, 255, 0.868);
-    color: black;
-    padding: 1%;
-
-}
-
-.main {
-
-    text-align: center;
-    font-family: Montserrat;
-    margin-top: 2%;
+    font-size: small;
 
 }

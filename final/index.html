@@ -12,6 +12,15 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="img/finalicon.png">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XFRJXKMPXQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XFRJXKMPXQ');
+    </script>
 </head>
 
 <body id="indexbody">
@@ -26,7 +35,7 @@
         <a href="#"><button style="font-family: Mandali;" type="button"
                 class="btn btn-outline-dark">Research</button></a>
         <a href="#"><button style="font-family: Mandali;" type="button"
-                class="btn btn-outline-dark">Subscribe</button></a>
+                class="btn btn-outline-dark">Conservation</button></a>
         <a href="#"><button style="font-family: Mandali;" type="button"
                 class="btn btn-outline-dark">Contact</button></a>
         <div class="dropdown">
@@ -41,7 +50,7 @@
                 <li><a class="dropdown-item" href="#">Burrowing Owl</a></li>
                 <li><a class="dropdown-item" href="#">Eastern Screech Owl</a></li>
                 <li><a class="dropdown-item" href="#">Flammulated Owl</a></li>
-                <li><a class="dropdown-item" href="#">Great Gray Owl</a></li>
+                <li><a class="dropdown-item" href="#">Great Grey Owl</a></li>
                 <li><a class="dropdown-item" href="#">Great Horned Owl</a></li>
                 <li><a class="dropdown-item" href="#">Long-Eared Owl</a></li>
                 <li><a class="dropdown-item" href="#">Northern Hawk Owl</a></li>
@@ -58,30 +67,86 @@
     <br>
 
     <div>
-        <img src="img/homebackground.jpg" style="width:100%;">
-        <div class="text-block">
-            <img src="img/indexsawwhet.jpg" style="width: 25%; float: left;">
-            <h4 class="main" style="font-weight: bold;">Welcome!</h4>
-            <p class="main" style="line-height: 200%;">
-                The beautiful state of Montana is filled with a multitude of animals species.<br>
-                But, none are quite as impressive as the owl! Here in Montana, we have 15 different<br>
-                owl species that visit throughout the year. Many species live here year-round, while<br>
-                others hang out for just a short time to breed. Taking a nighttime stroll in the woods<br>
-                or even simply listening for them to call on your front porch can leave you<br>
-                mesmerized. Have fun exploring this site to learn more about these spectacular,<br>
-                nocturnal creatures!
+        <img src="img/sawwhetindex.jpg" class="indeximg">
+        <center>
+            <h1 class="indexcontent">Welcome!</h1>
+        </center>
+        <br>
+        <center>
+            <p class="indexcontent">
+                The beautiful state of Montana is filled with a multitude of animal species.<br>
+                But, none are quite as impressive as the owl! Here in Montana, we have 15<br>
+                different owl species that visit throughout the year. Many species live here<br>
+                year-round while others hang out for just a short time to breed. Taking a<br>
+                nighttime stroll in the woods or even simply listening for them to call on<br>
+                your front porch can leave you with an experience you'll remember forever!<br>
             </p>
-        </div>
-        <div class="text-block2">
-            <div style="float: left; margin-left: 9%; margin-top: 2%;">
-                <h4 class="main" style="font-weight: bold;">Interested in helping?</h4>
-                <p class="main" style="line-height: 200%;">
-                    Visit <a target="_blank" href="https://www.owlresearchinstitute.org/">The Owl Research Institute</a><br>
-                    to find out how to donate today!
-                </p>
+        </center>
+    </div>
+
+    <center>
+        <h1 style="margin-top: 15%; margin-bottom: 10%; font-family: Montserrat;">Take a look at just a few of the owls species in
+            Montana...</h1>
+    </center>
+
+    <center>
+        <div id="carouselExampleCaptions" class="carousel slide" style="width: 65%;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <img src="img/indexwhisker.jpg" style="width: 35%; float: right;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/northernhawkindex.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.34);">
+                        <h5>Northern Hawk Owl</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/greatgreyhome.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.34);">
+                        <h5>Great Grey Owl</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/snowyowlindex.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.34);">
+                        <h5>Snowy Owl</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+    </center>
+
+    <center>
+        <h4 style="margin-top: 5%; font-family: Montserrat; line-height: 200%;">
+            Want to see more? Click the "Owl Species" button at the top of the site<br>
+            to discover all 15 species in Montana.
+        </h4>
+    </center>
+
+    <br>
+    <br>
+
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rCLLpMsIlGg?si=r7pzJjJM9D3OoP4F"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
     </div>
 
     <br>
@@ -100,7 +165,7 @@
 
     <footer>
 
-        <p>Copyright &copy 2023 - Zack Gacnik - Carroll College - Helena, Mt</p>
+        <p>Copyright &copy 2023 - Zackary Gacnik - Carroll College - Helena, Mt</p>
         <p>Keep up with my work by clicking on my socials below:</p>
 
         <section style="margin-left: 40%;" class="mb-4">
