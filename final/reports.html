@@ -63,103 +63,83 @@
         </div>
     </div>
 
-    <br>
-    <br>
-
-    <div>
-        <img src="img/sawwhetindex.jpg" class="indeximg">
-        <center>
-            <h1 class="indexcontent">Welcome!</h1>
-        </center>
-        <br>
-        <center>
-            <p class="indexcontent">
-                The beautiful state of Montana is filled with a multitude of animal species.<br>
-                But, none are quite as impressive as the owl! Here in Montana, we have 15<br>
-                different owl species that visit throughout the year. Many species live here<br>
-                year-round while others hang out for just a short time to breed. Taking a<br>
-                nighttime stroll in the woods or even simply listening for them to call on<br>
-                your front porch can leave you with an experience you'll remember forever!<br>
-            </p>
-        </center>
-    </div>
-
     <center>
-        <h1 style="margin-top: 15%; margin-bottom: 10%; font-family: Montserrat;">Take a look at just a few of the owls
-            species in
-            Montana...</h1>
+        <h3 style="font-family: Montserrat; line-height: 200%; margin-top: 2%; margin-bottom: 5%;">
+            Here you can complete a report form that is sent to us to help<br>
+            with research and conservation efforts.
+        </h3>
     </center>
 
-    <center>
-        <div id="carouselExampleCaptions" class="carousel slide" style="width: 65%;">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/northernhawkindex.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.34);">
-                        <h5>Northern Hawk Owl</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/greatgreyhome.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.34);">
-                        <h5>Great Grey Owl</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/snowyowlindex.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.34);">
-                        <h5>Snowy Owl</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <form style="margin-bottom: 5%;">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">First and Last name</label>
         </div>
-    </center>
+        <br>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Email address</label>
+            <div id="emailHelp" class="form-text" style="margin-left: 0.5%;">We'll never share your email with anyone
+                else.</div>
+        </div>
+        <br>
+        <br>
+        <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Did you catch the owl on camera? Submit a photo or video
+                here:</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <br>
+        <label for="exampleColorInput" class="form-label">If you didn't catch the owl on camera, please show us what color
+            it was.</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c"
+            title="Choose your color" style="width: 30%; height: 200px;">
+        <br>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Description of Owl</label>
+        </div>
+        <br>
+        <br>
+        <label class="form-label">If you know what species you saw, please select that species below.</label>
+        <br>
+        <br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Please select owl species</option>
+            <option value="1">Barn Owl</option>
+            <option value="2">Barred Owl</option>
+            <option value="3">Boreal Owl</option>
+            <option value="4">Burrowing Owl</option>
+            <option value="5">Eastern Screech Owl</option>
+            <option value="6">Flammulated Owl</option>
+            <option value="7">Great Grey Owl</option>
+            <option value="8">Northern Hawk Owl</option>
+            <option value="9">Great Horned Owl</option>
+            <option value="10">Long-Eared Owl</option>
+            <option value="11">Northern Pygmy Owl</option>
+            <option value="12">Northern Saw-whet Owl</option>
+            <option value="13">Short-Eared Owl</option>
+            <option value="14">Snowy Owl</option>
+            <option value="15">Western Screech Owl</option>
+        </select>
+        <br>
+        <br>
+        <label for="customRange2" class="form-label">How many owls did you see?</label>
+        <br>
+        <br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Select number of owls</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">3+</option>
+        </select>
+        <br>
+        <br>
+        <a href="formcomplete.html"><button type="button" class="btn btn-outline-success">Submit Report</button></a>
+    </form>
 
-    <center>
-        <h4 style="margin-top: 5%; font-family: Montserrat; line-height: 200%;">
-            Want to see more? Click the "Owl Species" button at the top of the site<br>
-            to discover all 15 species in Montana.
-        </h4>
-    </center>
 
-    <br>
-    <br>
-
-    <h2 style="margin-left: 6%; margin-bottom: 2%; font-family: Montserrat;">Educational videos:</h2>
-
-    <center><div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rCLLpMsIlGg?si=r7pzJjJM9D3OoP4F"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/hPuATyfVp7I?si=XVHBrJfa_178tG98"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-    </div></center>
-
-    <br>
-    <br>
-    <br>
-    <br>
 
     <footer>
 
