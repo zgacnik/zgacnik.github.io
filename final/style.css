@@ -74,3 +74,28 @@ form {
     line-height: 300%;
 
 }
+
+.pageimg {
+
+    width: 40%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+
+}
+
+.pagetitle {
+
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+
+}
+
+.pagetxt {
+
+    font-family: Montserrat;
+    line-height: 200%;
+    text-align: center;
+
+}
